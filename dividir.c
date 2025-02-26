@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void verificar(int x, int y)
+void verificar(int x, int y, int original)
 {
 	int cont=0; 
 	if (x == 0) {
@@ -39,7 +39,7 @@ int main()
     puts("Ingresa el valor de y:"); 
     scanf("%i", &y);
     
-    verificar(x,y); 
+    verificar(x,y, original); 
 
     
     
